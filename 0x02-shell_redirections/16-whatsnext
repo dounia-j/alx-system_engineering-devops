@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -m --invert-match 3 root /etc/passwd
+grep -A 5 root /etc/passwd
